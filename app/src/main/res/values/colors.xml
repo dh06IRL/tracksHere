@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#FF3801</color>
+    <color name="primary_dark">#E03100</color>
+    <color name="primary_light">#C8E6C9</color>
+    <color name="accent">#6fff00</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="park_color">#58BF83</color>
+    <color name="park_color_translucent">#6658BF83</color>
+    <color name="park_color_ab">#E658BF83</color>
+
+    <color name="ha__accent">@color/park_color</color>
+    <color name="ha__accent_translucent">@color/park_color_translucent</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="ab_color">#222222</color>
+    <color name="md__transparent">#00000000</color>
+    <color name="holo_dark">#ff707070</color>
+    <color name="md__defaultBackground">#212224</color>
+
+    <color name="black_overlay">#8000</color>
+    <color name="white_overlay">#26FFFFFF</color>
+    <color name="menu_white_overlay">#66FFFFFF</color>
+
+    <color name="bgtfans_green">#58BF83</color>
+
+    <color name="text_color">#d3d3d3</color>
+
+    <color name="google_now_text_color">#878787</color>
+    <color name="google_now_background">#e5e5e5</color>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">@color/accent</color>
+
+    <color name="sb__defaultBackground">#ff2c2c2c</color>
+    <color name="sb__defaultDivider">#f7f7f7</color>
+    <color name="sb__defaultText">#f7f7f7</color>
+
+    <color name="nav_bg">#FFFFFF</color>
+</resources>

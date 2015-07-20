@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <in.srain.cube.views.GridViewWithHeaderAndFooter
+        android:id="@+id/card_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:horizontalSpacing="8dp"
+        android:numColumns="@integer/cols"
+        android:scrollbars="none"
+        android:verticalSpacing="8dp" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/float_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_dialog_map"
+        android:visibility="gone"
+        fab:fab_colorNormal="@color/gplus_color_4"
+        fab:fab_colorPressed="@color/gplus_color_4"
+        fab:fab_colorRipple="@color/material_blue_500" />
+
+    <!--<com.melnykov.fab.FloatingActionButton-->
+        <!--android:id="@+id/float_settings"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_margin="16dp"-->
+        <!--android:src="@android:drawable/ic_dialog_info"-->
+        <!--android:visibility="gone"-->
+        <!--fab:fab_colorNormal="@color/gplus_color_4"-->
+        <!--fab:fab_colorPressed="@color/gplus_color_4"-->
+        <!--fab:fab_colorRipple="@color/material_blue_500" />-->
+
+
+</RelativeLayout>
